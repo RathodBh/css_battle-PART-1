@@ -1,0 +1,31 @@
+<div></div>
+<style>
+  *{margin:0}
+  body{
+    background:#62306d;
+    display: grid;
+    place-items: center;
+    height:100vh;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background: #f7ec7d;
+    transform: translateY(-50px);
+    border-radius: 50% 50% 0 0;
+    position:relative;
+  }
+  div:before{
+    content:'';
+    height:100px;
+    width:100px;
+    position: absolute;
+    top:100px;
+    left: -100px;
+    background:#f7ec7d;
+    border-radius: 0 0 50% 50%;
+    box-shadow: 200px 0 #f7ec7d;
+  }
+
+/* CSS MINIFIED */
+/* <div><style>*{margin:0}body{background:#62306d;display:grid;place-items:center;height:100vh}div {width:100;height:100;background: #f7ec7d;transform:translateY(-50px);border-radius:50% 50% 0 0;position:relative}div:before{content:'';height:100;width:100;position:absolute;top:100;left:-100;background:#f7ec7d;border-radius:0 0 50% 50%;box-shadow: 200px 0 #f7ec7d */
